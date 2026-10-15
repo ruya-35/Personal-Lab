@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <a href="#home" class="logo" id="logo-text">Rabia Aj</a>
+        <i class='bx-x' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="gradient-btn">Contact Me</a>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1 id="home-title">Hi, It's Rabia.</h1>
+            <h3 id="home-role"></h3>
+            <p id="home-bio"></p>
+
+            <div class="button-group">
+                <a href="#" class="btn">Hire Me</a>
+                <a href="#contact" class="btn btn-outline">Contact</a>
+            </div>
+        </div>
+
+        <div class="home-image">
+            <img src="./images/myPhoto.jpg" alt="Profile Image">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="./images/myPhoto.jpg" alt="About Image">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p id="about-text">Hello! I am a passionate Frontend Developer with a strong foundation in modern web technologies. I love creating interactive user interfaces, exploring new design trends, and building seamless digital experiences. Always eager to learn and take on new challenges!</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container" id="services-container">
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="projects-box" id="projects-container">
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact Me</h2>
+
+        <form action="#" id="contact-form">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" id="name" placeholder="Full Name" required>
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="input-box">
+                    <input type="tel" id="phone" placeholder="Phone Number">
+                    <input type="text" id="subject" placeholder="Subject">
+                </div>
+            </div>
+
+            <div class="input-group2">
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p class="copyright">&copy; 2026 Rabia Aj | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

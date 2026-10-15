@@ -1,0 +1,69 @@
+:root{
+    --card-color:#fefcf7;
+    --bg-color:#eef5ff;
+    --card-bg-dark: #094b85;
+}
+body{
+    background-color: var(--bg-color);
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+img{
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+}
+
+#card-A, #card-B, #card-C{
+    padding: 15px;
+    background-color: var(--card-color);
+    border-radius: 20px;
+    height: 500px;
+    width: 250px;
+}
+li{
+    padding-top: 6px;
+    padding-bottom: 50px;
+}
+
+
+#card-A:hover, #card-B:hover, #card-C:hover{
+    color: var(--card-color);
+    background-color: var(--card-bg-dark);
+    button{
+        background-color: var(--bg-color);
+    }
+    .check-icon{
+        background-color: var(--card-color);
+        color: var(--card-bg-dark);
+    }
+}
+li{
+    list-style: none;
+}
+button{
+    background-color: var(--card-color);
+    border-radius: 50px;
+    height: 40px;
+    width: 170px;
+}
+#card-B #top{
+    margin-top: -20px;
+}
+.check-icon {
+    background-color: var(--card-bg-dark);
+    color: var(--card-color);
+    border-radius: 50%; 
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+}

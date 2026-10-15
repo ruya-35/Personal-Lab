@@ -1,0 +1,39 @@
+{
+    "profile": {
+    "name": "Rabia",
+    "role": "Creative Frontend Developer",
+    "tagline": "Creating immersive digital experience using HTML, CSS and JavaScript.",
+    "about": "Hello! I'm Rabia, a passionate front-end developer and tech enthusiast based in Addis Ababa. I love building clean, user-friendly, and modern websites using HTML, CSS, and JavaScript."
+    },
+    "navLinks": [
+    { "name": "Home", "href": "#home" },
+    { "name": "About", "href": "#about" },
+    { "name": "Skills", "href": "#skills" },
+    { "name": "Services", "href": "#services" },
+    { "name": "Projects", "href": "#projects" },
+    { "name": "Contact", "href": "#contact" }
+    ],
+    "skills": [
+    { "name": "HTML5", "level": "Advanced" },
+    { "name": "CSS3 / Styling", "level": "Advanced" },
+    { "name": "JavaScript", "level": "Intermediate" },
+    { "name": "Responsive Design", "level": "Intermediate" }
+    ],
+    "services": [
+    {
+        "title": "Frontend Development",
+        "description": "Turning design concepts into responsive, interactive, and beautiful websites using modern HTML, CSS, and JavaScript."
+    },
+    {
+        "title": "UI/UX Implementation",
+        "description": "Translating wireframes and layouts into clean code with a strong focus on user experience."
+    }
+    ],
+    "projects": [
+    {
+        "title": "Portfolio Website",
+        "description": "A dynamic personal portfolio built with HTML, CSS, and JavaScript utilizing external JSON data.",
+        "link": "#"
+    }
+    ]
+}
